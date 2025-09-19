@@ -9,7 +9,9 @@
 # Usage: curl -sSL <raw_github_url> | sudo bash
 # =============================================================================
 
-# --- Script Safety and Best Practices ---
+# apt-get update
+# apt-get install -y curl sudo
+# curl -sSL https://raw.githubusercontent.com/noby338/script/main/setup_debian.sh | sudo bash
 
 # Exit immediately if a command exits with a non-zero status.
 set -e
