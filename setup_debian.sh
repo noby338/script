@@ -33,8 +33,8 @@ echo "🚀 Starting setup for user: $ORIGINAL_USER in home directory: $USER_HOME
 echo "🔄 Updating package lists..."
 apt-get update -y
 
-echo "📦 Installing essential packages: vim, git, curl..."
-apt-get install -y vim git curl
+echo "📦 Installing essential packages: vim, git..."
+apt-get install -y vim git
 
 
 # --- 2. Configure Vim ---
